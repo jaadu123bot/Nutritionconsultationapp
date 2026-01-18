@@ -1,7 +1,7 @@
 import { ArrowRight, Heart, Leaf, Users } from 'lucide-react';
 
 interface HeroProps {
-  setActiveSection: (section: 'home' | 'regions' | 'experts' | 'diet-planner' | 'consultation' | 'deficiencies' | 'news') => void;
+  setActiveSection: (section: 'home' | 'regions' | 'experts' | 'diet-planner' | 'consultation' | 'deficiencies' | 'news' | 'past-consultations' | 'shop' | 'feedback' | 'locate-centers') => void;
 }
 
 export function Hero({ setActiveSection }: HeroProps) {

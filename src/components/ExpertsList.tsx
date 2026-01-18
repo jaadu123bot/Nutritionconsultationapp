@@ -3,7 +3,7 @@ import { experts } from '../data/expertsData';
 import { Star, MapPin, Languages, Award, Calendar } from 'lucide-react';
 
 interface ExpertsListProps {
-  setActiveSection: (section: 'home' | 'regions' | 'experts' | 'diet-planner' | 'consultation' | 'deficiencies' | 'news') => void;
+  setActiveSection: (section: 'home' | 'regions' | 'experts' | 'diet-planner' | 'consultation' | 'deficiencies' | 'news' | 'past-consultations' | 'shop' | 'feedback' | 'locate-centers') => void;
 }
 
 export function ExpertsList({ setActiveSection }: ExpertsListProps) {
